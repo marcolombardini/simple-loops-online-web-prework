@@ -1,11 +1,11 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-  phrase = 0
+  count = 0
   loop do 
-    phrase += 1 
+    count += 1 
     puts "Welcome to Flatiron School's Web Development Course!"
-    if phrase == number_of_times
+    if count == number_of_times
       break
     end
   end
